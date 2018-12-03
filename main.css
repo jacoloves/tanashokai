@@ -82,6 +82,28 @@ html, body {
     margin-bottom: 250px;
 }
 
+@media screen and (max-width:1024px){
+
+    .css {
+        margin-left: 30px;
+    }
+    
+    .php {
+        margin-top: 100px;
+        margin-left: 240px;
+    }
+
+    .c {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .container_third h2 {
+        margin-bottom: 40px;
+    }
+}
+
+
 .container_third {
     height: 100%;
     width: 100%;
@@ -108,29 +130,36 @@ html, body {
     border-radius: 50%;
     box-shadow: 0 0 4px rgba(0,0,0,.25);
     float: left;
-    margin-left: 100px;
+    margin-right: 90px;
     list-style: none;
 }
 
 .html {
-    margin-left: 250px;
+    margin-left: 240px;
 }
 
 .skill img{
     padding: 25px;
-    width: 100px;
-    height: 100px;   
+    width: 150px;
+    height: 150px;   
 }
 
 .skill p {
     font-size: 20px;
     color: #555555;
-    font-weight: 700;
+    font-weight: 700;   
 }
 
 .container_fourth {
     margin-top: 400px;
     text-align: center;
+}
+
+
+.container_fourth h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #555555;
 }
 
 .shokai {
@@ -150,7 +179,7 @@ html, body {
     border-radius: 50%;
     box-shadow: 0 0 4px rgba(0,0,0,.25);
     float: left;
-    margin-left: 100px;
+    margin-right: 90px;
     list-style: none;
 }
 
@@ -158,12 +187,12 @@ html, body {
     padding-bottom: 10px;
     border-radius: 50%;
     margin-right: 150px;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
 }
 
 .m_first {
-    margin-left: 250px;
+    margin-left: 230px;
 }
 
 .tanto {
@@ -176,7 +205,7 @@ html, body {
 }
 
 footer {
-    margin-top: 350px;
+    margin-top: 500px;
     text-align: center;
     color: #555555;
 }
