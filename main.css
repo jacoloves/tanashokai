@@ -101,6 +101,19 @@ html, body {
     .container_third h2 {
         margin-bottom: 40px;
     }
+
+    .m_third {
+        margin-left: 240px;
+        margin-top: 100px;
+    }
+
+    .m_fourth {
+        margin-top: 100px;
+    }
+
+    .footer p {
+        margin-top: 150px;
+    }
 }
 
 
