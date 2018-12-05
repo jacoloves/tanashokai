@@ -111,8 +111,8 @@ html, body {
         margin-top: 100px;
     }
 
-    .footer p {
-        margin-top: 150px;
+    .footer_font{
+        margin-top: 100px;
     }
 }
 
@@ -218,7 +218,7 @@ html, body {
 }
 
 footer {
-    margin-top: 500px;
+    margin-top: 550px;
     text-align: center;
     color: #555555;
 }

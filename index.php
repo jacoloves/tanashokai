@@ -2,14 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Page Title</title>
+    <title>たなしょ会</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
     <script src="main.js"></script>
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
         <div class="main">
             <div class="container_first">
                 <h2>たなしょ会</h2>
@@ -80,17 +79,18 @@
                     </li>
                     <li class="member m_fourth">
                         <div class="shokai">
-                            <img src="./img/member_four.jpg">
+                            <img src="https://pbs.twimg.com/profile_images/3019243980/db0a6b51022b1b6a0187330715206032_400x400.jpeg">
                             <p class="tanto">先輩担当</p>
                             <p class="name">ぱいせん</p>
                         </div>
                     </li>
                 </ul>
             </div>
-        </div>
     </div>
     <footer>
-        <p>Copyright 2018 たなしょ会</p>
+        <div class="footer_font">
+            <p>Copyright 2018 たなしょ会</p>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
